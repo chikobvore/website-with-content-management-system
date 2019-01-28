@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lethem Trust | Gallery</title>
+<link rel="stylesheet" type="text/css"
+href="../static/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" 
+href="../static/fontawesome-free/css/fontawesome-all.min.css">
+<link rel="stylesheet" type="text/css" 
+href="../static/css/style.css">
+<link rel="stylesheet" type="text/css" 
+href="../static/css/lightbox.min.css">
+<link rel="stylesheet" type="text/css" 
+href="../static/css/calendar.css">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+</head>
+<style>
+.inform{
+background: url('../static/img/image6.jpg') 0px 0px fixed;
+background-size: cover;
+padding-top: 30px;
+padding-bottom: 30px;
+color:#fff;
+}
+
+</style>
+<body>
+
+<div class="banner">
+<header>
+<div class="hat">
+<div id="header-logo"><img src="../static/img/logo.png" width="200px" height="100px"></div>
+</div>
+<div class="search_my">
+<form action="#" method="post">
+<input type="search" class="search1" placeholder="search">
+<button class="button1" type="submit"><i class="fas fa-search"></i></button>
+</form>
+</div>
+<div class="clearfix"></div>
+</header>
+<div class="nav1">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('home')}}">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('about')}}">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('gallery')}}">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('events')}}">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ url_for('donate')}}">Donate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          
+        </div>
+      </nav>
+</div>
+
+
+<div class="gallery">
+<div class="container">
+<h3>In pictures...</h3>
+<div class="gallery-grids">
+<div class="row">
+<div class="col-sm-12 col-md-2 col-sm-4 gallery_grid_img">
+<a class=""  href="../static/img/image8.jpg" data-lightbox="example-set" data-title="SADC">
+<img class="img-fluids" src="../static/img/image8.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4 gallery_grid_img">
+<a class=""  href="../static/img/image3.jpg" data-lightbox="example-set" data-title="Beatrice Farm">
+<img class="img-fluids" src="../static/img/image3.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image4.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image4.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4 gallery_grid_img">
+<a class=""  href="../static/img/image5.jpg" data-lightbox="example-set" data-title="Amristar Eye Clinic">
+<img class="img-fluids" src="../static/img/image5.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image6.jpg" data-lightbox="example-set" data-title="Free Billboard">
+<img class="img-fluids" src="../static/img/image6.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4 gallery_grid_img">
+<a class=""  href="../static/img/image7.jpg" data-lightbox="example-set" data-title="Dulux Paints Zim">
+<img class="img-fluids" src="../static/img/image7.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4 gallery_grid_img">
+<a class=""  href="../static/img/image9.jpg" data-lightbox="example-set" data-title="OK Zimbabwe">
+<img class="img-fluids" src="../static/img/image9.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4 gallery_grid_img">
+<a class=""  href="../static/img/image10.jpg" data-lightbox="example-set" data-title="PowerTel Zimbabwe">
+<img class="img-fluids" src="../static/img/image10.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image11.jpg" data-lightbox="example-set" data-title="Red Seal">
+<img class="img-fluids" src="../static/img/image11.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image12.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image12.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image13.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image13.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image14.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image14.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image15.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image15.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image16.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image16.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image17.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image17.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image18.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image18.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image19.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image19.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image20.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image20.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4 gallery_grid_img">
+<a class=""  href="../static/img/image8.jpg" data-lightbox="example-set" data-title="SADC">
+<img class="img-fluids" src="../static/img/image8.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4 gallery_grid_img">
+<a class=""  href="../static/img/image3.jpg" data-lightbox="example-set" data-title="Beatrice Farm">
+<img class="img-fluids" src="../static/img/image3.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image4.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image4.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4 gallery_grid_img">
+<a class=""  href="../static/img/image5.jpg" data-lightbox="example-set" data-title="Amristar Eye Clinic">
+<img class="img-fluids" src="../static/img/image5.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image6.jpg" data-lightbox="example-set" data-title="Free Billboard">
+<img class="img-fluids" src="../static/img/image6.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4 gallery_grid_img">
+<a class=""  href="../static/img/image7.jpg" data-lightbox="example-set" data-title="Dulux Paints Zim">
+<img class="img-fluids" src="../static/img/image7.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4 gallery_grid_img">
+<a class=""  href="../static/img/image9.jpg" data-lightbox="example-set" data-title="OK Zimbabwe">
+<img class="img-fluids" src="../static/img/image9.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4 gallery_grid_img">
+<a class=""  href="../static/img/image10.jpg" data-lightbox="example-set" data-title="PowerTel Zimbabwe">
+<img class="img-fluids" src="../static/img/image10.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image11.jpg" data-lightbox="example-set" data-title="Red Seal">
+<img class="img-fluids" src="../static/img/image11.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image12.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image12.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image13.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image13.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image14.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image14.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image15.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image15.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image16.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image16.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image17.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image17.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image18.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image18.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image19.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image19.jpg">
+</a>
+</div>
+<div class="col-sm-12 col-md-2 col-sm-4  gallery_grid_img">
+<a class=""  href="../static/img/image20.jpg" data-lightbox="example-set" data-title="Dezembro Biergarten">
+<img class="img-fluids" src="../static/img/image20.jpg">
+</a>
+</div>
+</div>
+</div>
+</div>
+
+<section>
+<div class="container">
+<div class="row">
+
+<div class="col-md-4 three_clo">
+<h5>Subscribe to newsletter</h5>
+<p>orem Ipsum is simply dummy text of the printing and typesetting.</p>
+<form action="#" method="post">
+<input type="email" placeholder="Email">
+<button class="btn1">
+<i class="fas fa-envelope-open "></i>
+</button>
+</form>
+</div>
+
+<div class="col-md-4 mid-row">
+<h5>Connect On Social Media</h5>
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
+<div class="social-icon">
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-youtube"></i></a>
+</div>
+</div>
+
+<div class="col-md-4 contact">
+<h5>Contact Us</h5>
+<p><i class="fas fa-map-marker-alt"></i><span class="number">5 Goodneston Close Malbereign</span></p>
+<p><i class="fas fa-phone"></i><span class="number">(0) 242 123 456</span></p>
+<p><i class="fas fa-envelope-open"></i><span class="number"><a href="mailto:@exapmle.com" class="info"></a>info@lethem.co.zw</span></p>
+<p><i class="fas fa-calendar"></i>Office hrs: <span class="number">Mon - Fri (0800-1600)</p>
+</div>
+
+</div>
+</div>
+</section>
+<footer>
+<p class="f-left">&copy; 2019 Lethem Trust | All rights reserved</p>
+<p class="f-right">Website by My Club Zw</p>
+</footer>
+
+<a href="#" id="back-to-top" title="Back-to-top" ><i class="fas fa-angle-up"></i></a>
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../static/js/lightbox-plus-jquery.min.js"></script>
+<script type="text/javascript" scr="../static/js/bootstrap.js"></script>
+<script type="text/javascript" scr="../static/js/calendar.js"></script>
+<script type="text/javascript" scr="../static/js/jquery.flexslider.js"></script>
+</body>
+</html>

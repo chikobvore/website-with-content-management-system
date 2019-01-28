@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+:root{
+    --green:#95C940;
+    --orange:#F57220;
+}
+
+body{
+    overflow-x: hidden;
+    margin:0;
+    padding:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+    min-height:37px !important;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-nav > li > a, .navbar-brand{
+    padding-top: 10px !important;
+    padding-bottom: 4px;
+    height: 37px;
+}
+
+/* Custom color */
+.main-kolor{
+background-color: #222 !important;
+border-color:#080808 !important ;
+color: #fff !important;
+}
+
+/* Header */
+#header{
+    background: var(--orange);
+    color: #ffffffff;
+    padding-bottom: 10px;
+    margin-bottom: 15px; 
+}
+
+#header .create{
+    padding-top: 20px;
+}
+
+/* Beadcrumbs */
+.breadcrumb{
+    background: #cccccc;
+    color: #333333;
+}
+
+.breadcrumb a{
+    color: #333333;
+}
+
+/* Progress bar */
+.progress-bar{
+    background: #16e79d;
+    color: #080808;
+}
+
+.dash-box{
+    text-align: center;
+}
+
+
+h1, h2,h4,h6{
+    text-align: center;
+}
+
+.btn-green{
+    background: var(--green)!important;
+    color:#fff !important;
+    margin: 5px 0px 5px 0px !important;
+}
+.btn-orange{
+    background: var(--orange) !important;
+    color:#fff !important;
+    margin: 5px 0px 5px 0px !important;
+}
+
+.bhatani{
+    text-align: center !important;
+    width: 300px !important;
+    margin: 0px 0px 0px 120px !important;
+}
+
+.input-form-custom{
+    margin: 5px 100px 5px 100px;
+}
+
+input[type="file"] {
+    padding: 5px;
+    color: #000;
+    background: var(--orange);
+}
+
+footer{
+    background:var(--green);
+    padding: 10px 10px 34px 10px;
+    height: 20px;
+}
+
+.f-left{
+    float: left;
+}
+
+.f-right{
+    float: right;
+}
+
+
